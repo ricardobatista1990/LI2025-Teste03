@@ -1,0 +1,96 @@
+ricardobatista@linux:~/LI2025-Teste03$ cat meusComandosAzure.txt
+    1  Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
+    2  pwd
+    3  touch dados.txt
+    4  vim dados.txt
+    5  cat dados.txt
+    6  ls
+    7  exit
+    8  pwd
+    9  ls
+   10  cat dados.txt
+   11  dir
+   12  exit
+   13  pwd
+   14  ls -a
+   15  ls -ll
+   16  cd -
+   17  pwd
+   18  ls -R
+   19  cd dados.txt
+   20  find dados.txt
+   21  cat dados.txt
+   22  ls
+   23  ls -R
+   24  ls -s
+   25  ls -l
+   26  du
+   27  ps
+   28  pstree
+   29  pstree -p
+   30  dir
+   31  cd ..
+   32  ls
+   33  ls -l
+   34  ls -a
+   35  lss -all
+   36  exit
+   37  sudo systemctl status apache2
+   38  sudo systemctl start apache2
+   39  sudo systemctl enable apache2
+   40  sudo apt update
+   41  sudo apt upgrade -y
+   42  sudo apt install apache2 -y
+   43  bash
+   44  git
+   45  cd /var/www/html
+   46  ls
+   47  ls
+   48  sudo vi index.html
+   49  git
+   50  sudo git
+   51  git
+   52  ls -all
+   53  cd oMeuProjetoHtml
+   54  ls -all
+   55  cd oMeuProjetoHtml
+   56  cd /var/www/html
+   57  ls -all
+   58  pwd
+   59  ls -all
+   60  pwd
+   61  ls -all
+   62  ls .
+   63  pwd
+   64  touch A-73349-notas.txt
+   65  ls
+   66  git --version
+   67  git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+   68  ls
+   69  cd LI2025-Teste03
+   70  pwd
+   71  mkdir A73349
+   72  +wd
+   73  ls
+   74  touch README.md.txt
+   75  ls
+   76  echo "Teste de LI 2025/2026." > README.md.txt
+   77  cat README.md.txt
+   78  git .
+   79  git init
+   80  git push
+   81  git push
+   82  git push
+   83  ricardobatista1990
+   84  git pusg
+   85  git push
+   86  git status
+   87  git add .
+   88  git status
+   89  git push
+   90  git commit -m "Parte 2 com javascript e css"
+   91  git add .
+   92  git push
+   93  dcs
+   94  history > meusComandosAzure.txt
+ricardobatista@linux:~/LI2025-Teste03$
