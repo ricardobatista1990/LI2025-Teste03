@@ -1,0 +1,410 @@
+NOME:José Ricardo Borges Batista
+NMEC:73349
+ricardobatista@linux:~$ pwd
+/home/ricardobatista
+
+1ª Tarefa
+
+ricardobatista@linux:~$ git --version
+git version 2.34.1
+ricardobatista@linux:~$ git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+Cloning into 'LI2025-Teste03'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+ricardobatista@linux:~$ ls
+A-73349-notas.txt  LI2025-Teste03  dados.txt
+
+2ª Tarefa
+ricardobatista@linux:~$ ls
+A-73349-notas.txt  LI2025-Teste03  dados.txt
+ricardobatista@linux:~$ cd LI2025-Teste03
+ricardobatista@linux:~/LI2025-Teste03$ pwd
+/home/ricardobatista/LI2025-Teste03
+ricardobatista@linux:~/LI2025-Teste03$ mkdir A73349
+ricardobatista@linux:~/LI2025-Teste03$ +wd
+Command '+wd' not found, did you mean:
+  command 'gwd' from deb geneweb (6.08+git20181019+dfsg-3)
+  command 'xwd' from deb x11-apps (7.7+8build2)
+  command 'pwd' from deb coreutils (8.32-4.1ubuntu1.2)
+Try: sudo apt install <deb name>
+ricardobatista@linux:~/LI2025-Teste03$ ls
+A73349  README.md
+ricardobatista@linux:~/LI2025-Teste03$ touch README.md.txt
+ricardobatista@linux:~/LI2025-Teste03$ ls
+A73349  README.md  README.md.txt
+ricardobatista@linux:~/LI2025-Teste03$ echo "Teste de LI 2025/2026." > README.md.txt
+ricardobatista@linux:~/LI2025-Teste03$ cat README.md.txt
+Teste de LI 2025/2026.
+ricardobatista@linux:~/LI2025-Teste03$ git .
+git: '.' is not a git command. See 'git --help'.
+
+The most similar commands are
+        am
+        gc
+        mv
+        rm
+ricardobatista@linux:~/LI2025-Teste03$ git init
+Reinitialized existing Git repository in /home/ricardobatista/LI2025-Teste03/.git/
+ricardobatista@linux:~/LI2025-Teste03$ git push
+Username for 'https://github.com': ricardobatista1990
+Password for 'https://ricardobatista1990@github.com':
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/ricardobatista1990/LI2025-Teste03.git/'
+ricardobatista@linux:~/LI2025-Teste03$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+ricardobatista@linux:~/LI2025-Teste03$ git add .
+ricardobatista@linux:~/LI2025-Teste03$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   README.md.txt
+
+ricardobatista@linux:~/LI2025-Teste03$ git push
+Username for 'https://github.com': ricardobatista1990
+Password for 'https://ricardobatista1990@github.com':
+Everything up-to-date
+ricardobatista@linux:~/LI2025-Teste03$
+
+
+
+3ª Tarefa
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\WINDOWS\system32> cd 'C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3'
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> Clear-History
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git init
+Initialized empty Git repository in C:/Users/jrica/Documents/Laboratório de Informatica/Teste 3/.git/
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+Cloning into 'LI2025-Teste03'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git add .
+warning: adding embedded git repository: LI2025-Teste03
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> LI2025-Teste03
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached LI2025-Teste03
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   A-73349-notas.txt
+        new file:   LI2025-Teste03
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit -m "3ª tarefa concluída"
+[master (root-commit) d862bd2] 3ª tarefa concluída
+ 2 files changed, 82 insertions(+)
+ create mode 100644 A-73349-notas.txt
+ create mode 160000 LI2025-Teste03
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git .init
+git: '.init' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit -m "3ª tarefa concluída"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git add .
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> gti status
+gti : The term 'gti' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ gti status
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (gti:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit -m "3ª tarefa concluída"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git branch
+* master
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git .init
+git: '.init' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit -m "3ª tarefa concluída"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git add .
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit -m "3ª tarefa concluída"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit -m "3ª tarefa concluída"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git add .
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit -m "3ª tarefa concluída"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit "Parte 2 com javascrip e css"
+error: pathspec 'Parte 2 com javascrip e css' did not match any file(s) known to git
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit "Parte 2 com javascrip e css"
+error: pathspec 'Parte 2 com javascrip e css' did not match any file(s) known to git
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git add .
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit -m "Parte 2 com javascript e css"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit "Parte 2 com javascript e css"
+error: pathspec 'Parte 2 com javascript e css' did not match any file(s) known to git
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git init
+Reinitialized existing Git repository in C:/Users/jrica/Documents/Laboratório de Informatica/Teste 3/.git/
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git branch
+* master
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git add .
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit "Parte 2 com javascript e css"
+error: pathspec 'Parte 2 com javascript e css' did not match any file(s) known to git
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3>
+
+
+4ª Tarefa<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab Info - Página Inicial</title>
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+  >
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">Lab Info</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="disciplina.html">A disciplina</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container text-center my-5">
+    <h1 class="display-4 fw-bold text-primary mb-4">Bem-vindo ao Laboratório de Informática</h1>
+    <p class="lead">Esta é a página inicial do seu projeto em HTML com Bootstrap.</p>
+    <hr class="my-4">
+    <p>Use esta página para explorar os conteúdos da disciplina e aprender sobre HTML, CSS, JavaScript e o framework Bootstrap.</p>
+    <a href="disciplina.html" class="btn btn-outline-primary btn-lg mt-3">Saber mais sobre a disciplina</a>
+  </div>
+  <footer class="bg-light text-center py-3 mt-5 border-top">
+    <p class="mb-0">© 2025 Laboratório de Informática — Desenvolvido com Bootstrap 5</p>
+  </footer>
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous">
+  </script>
+</body>
+</html>
+
+
