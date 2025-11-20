@@ -1,0 +1,656 @@
+NOME: José Ricardo Borges Batista
+NMEC: 73349
+
+
+Tarefa inicial
+Ponto 3:
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> pwd
+
+Path
+----
+C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3
+
+
+
+1ª Tarefa:
+https://github.com/ricardobatista1990/LI2025-Teste03.git
+
+
+2ª Tarefa:
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git init
+Initialized empty Git repository in C:/Users/jrica/Documents/Laboratório de Informatica/Teste 3/.git/
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+Cloning into 'LI2025-Teste03'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git branch
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        A-73349-notas.txt
+        LI2025-Teste03/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git add .
+warning: adding embedded git repository: LI2025-Teste03
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> LI2025-Teste03
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached LI2025-Teste03
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git add --all
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit -m "2ª tarefa concluída"
+[master (root-commit) 2f81c83] 2ª tarefa concluída
+ 2 files changed, 21 insertions(+)
+ create mode 100644 A-73349-notas.txt
+ create mode 160000 LI2025-Teste03
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git branch
+* master
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git add --all
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git commit -m "2ª tarefa concluída"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LI2025-Teste03 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03"
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03> git branch
+* main
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03> git add --all
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03> git commit -m "2ª tarefa concluída"
+[main 912927a] 2ª tarefa concluída
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md.txt
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 301 bytes | 301.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ricardobatista1990/LI2025-Teste03.git
+   9532838..912927a  main -> main
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03>
+
+
+
+3ª Tarefa:
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\4 tarefa> cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3"
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+fatal: destination path 'LI2025-Teste03' already exists and is not an empty directory.
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git init
+Reinitialized existing Git repository in C:/Users/jrica/Documents/Laboratório de Informatica/Teste 3/.git/
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+fatal: destination path 'LI2025-Teste03' already exists and is not an empty directory.
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3> cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa"
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa> git init
+Initialized empty Git repository in C:/Users/jrica/Documents/Laboratório de Informatica/Teste 3/LI2025-Teste03/3 tarefa/.git/
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa> git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+Cloning into 'LI2025-Teste03'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa> cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03"
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git add --all
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git commit -m "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03"
+[main 59a8746] C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03
+ 1 file changed, 15 insertions(+)
+ create mode 100644 index.html
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 920 bytes | 920.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ricardobatista1990/LI2025-Teste03.git
+   912927a..59a8746  main -> main
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git commit -m "3ª tarefa concluída"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git push origin main
+Everything up-to-date
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git commit -m "3ª tarefa concluída"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git push origin main
+Everything up-to-date
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git add --all
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git commit -m "3ª tarefa concluída"
+[main 0b3733e] 3ª tarefa concluída
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ricardobatista1990/LI2025-Teste03.git
+   59a8746..0b3733e  main -> main
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git add --all
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git commit -m "3ª tarefa concluída"
+[main d112a43] 3ª tarefa concluída
+ 1 file changed, 5 deletions(-)
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 284 bytes | 284.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ricardobatista1990/LI2025-Teste03.git
+   0b3733e..d112a43  main -> main
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03>
+
+
+4ª Tarefa:
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git add --all
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git commit -m "4ª tarefa"
+[main 33d4fe1] 4ª tarefa
+ 1 file changed, 48 insertions(+)
+ create mode 100644 4 tarefa/index.html
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.04 KiB | 1.04 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ricardobatista1990/LI2025-Teste03.git
+   d112a43..33d4fe1  main -> main
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03>
+
+
+5ª Tarefa:
+ricardobatista@linux:~/teste3$ pwd
+/home/ricardobatista/teste3
+ricardobatista@linux:~/teste3$ cd teste3
+-bash: cd: teste3: No such file or directory
+ricardobatista@linux:~/teste3$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/ricardobatista/teste3/.git/
+ricardobatista@linux:~/teste3$ git clone "https://github.com/ricardobatista1990/LI2025-Teste03.git"
+Cloning into 'LI2025-Teste03'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 19 (delta 6), reused 13 (delta 3), pack-reused 0 (from 0)
+Receiving objects: 100% (19/19), done.
+Resolving deltas: 100% (6/6), done.
+ricardobatista@linux:~/teste3$ ls
+LI2025-Teste03
+ricardobatista@linux:~/teste3$ cd LI2025-Teste03
+ricardobatista@linux:~/teste3/LI2025-Teste03$ ls
+'4 tarefa'   README.md   README.md.txt   index.html
+ricardobatista@linux:~/teste3/LI2025-Teste03$ cp index.html disciplinas.html
+ricardobatista@linux:~/teste3/LI2025-Teste03$ ls
+'4 tarefa'   README.md   README.md.txt   disciplinas.html   index.html
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git add -all
+error: did you mean `--all` (with two dashes)?
+ricardobatista@linux:~/teste3/LI2025-Teste03$
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git add .
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+[main 2e7d350] Criado ficheiro disciplinas.html a partir do ficheiro index.html
+ Committer: Ubuntu <ricardobatista@linux.bo4gvdibpqwurmlhybpb5qmywb.parx.internal.cloudapp.net>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+ create mode 100644 disciplinas.html
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git branch
+* main
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git add .
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git push origin
+Username for 'https://github.com': ricardobatista90
+Password for 'https://ricardobatista90@github.com':
+remote: Permission to ricardobatista1990/LI2025-Teste03.git denied to ricardobatista1990.
+fatal: unable to access 'https://github.com/ricardobatista1990/LI2025-Teste03.git/': The requested URL returned error: 403
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git push origin
+Username for 'https://github.com': ricardobatista90
+Password for 'https://ricardobatista90@github.com':
+remote: Permission to ricardobatista1990/LI2025-Teste03.git denied to ricardobatista1990.
+fatal: unable to access 'https://github.com/ricardobatista1990/LI2025-Teste03.git/': The requested URL returned error: 403
+ricardobatista@linux:~/teste3/LI2025-Teste03$
+
+
+
+
+6ª Tarefa:
+
+=======================================
+
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git pull origin main
+history > meusComandosAzure.txt
+cat meusComandosAzure.txt
+From https://github.com/ricardobatista1990/LI2025-Teste03
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+    1  Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
+    2  pwd
+    3  touch dados.txt
+    4  vim dados.txt
+    5  cat dados.txt
+    6  ls
+    7  exit
+    8  pwd
+    9  ls
+   10  cat dados.txt
+   11  dir
+   12  exit
+   13  pwd
+   14  ls -a
+   15  ls -ll
+   16  cd -
+   17  pwd
+   18  ls -R
+   19  cd dados.txt
+   20  find dados.txt
+   21  cat dados.txt
+   22  ls
+   23  ls -R
+   24  ls -s
+   25  ls -l
+   26  du
+   27  ps
+   28  pstree
+   29  pstree -p
+   30  dir
+   31  cd ..
+   32  ls
+   33  ls -l
+   34  ls -a
+   35  lss -all
+   36  exit
+   37  sudo systemctl status apache2
+   38  sudo systemctl start apache2
+   39  sudo systemctl enable apache2
+   40  sudo apt update
+   41  sudo apt upgrade -y
+   42  sudo apt install apache2 -y
+   43  bash
+   44  git
+   45  cd /var/www/html
+   46  ls
+   47  ls
+   48  sudo vi index.html
+   49  git
+   50  sudo git
+   51  git
+   52  ls -all
+   53  cd oMeuProjetoHtml
+   54  ls -all
+   55  cd oMeuProjetoHtml
+   56  cd /var/www/html
+   57  ls -all
+   58  pwd
+   59  ls -all
+   60  pwd
+   61  ls -all
+   62  ls .
+   63  pwd
+   64  touch A-73349-notas.txt
+   65  ls
+   66  git --version
+   67  git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+   68  ls
+   69  cd LI2025-Teste03
+   70  pwd
+   71  mkdir A73349
+   72  +wd
+   73  ls
+   74  touch README.md.txt
+   75  ls
+   76  echo "Teste de LI 2025/2026." > README.md.txt
+   77  cat README.md.txt
+   78  git .
+   79  git init
+   80  git push
+   81  git push
+   82  git push
+   83  ricardobatista1990
+   84  git pusg
+   85  git push
+   86  git status
+   87  git add .
+   88  git status
+   89  git push
+   90  git commit -m "Parte 2 com javascript e css"
+   91  git add .
+   92  git push
+   93  dcs
+   94  history > meusComandosAzure.txt
+   95  cat meusComandosAzure.txt
+   96  git .
+   97  git status
+   98  git commit "hitorico maquina remota"
+   99  git commit -m "hitorico maquina remota"
+  100  git push
+  101  git .
+  102  git status
+  103  git commit "hitorico maquina remota"
+  104  git commit -m "hitorico maquina remota"
+  105  git push
+  106  cat meusComandosAzure.txt
+  107  git push
+  108  git .
+  109  git push
+  110  cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3"
+  111  clear
+  112  pwd
+  113  ls
+  114  rmdir LI2025-Teste03
+  115  mkdir teste3
+  116  ls
+  117  cd teste3
+  118  clear
+  119  pwd
+  120  cd teste3
+  121  git init
+  122  git clone "https://github.com/ricardobatista1990/LI2025-Teste03.git"
+  123  ls
+  124  cd LI2025-Teste03
+  125  ls
+  126  cp index.html disciplinas.html
+  127  ls
+  128  git add -all
+  129  git add .
+  130  git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+  131  git status
+  132  git branch
+  133  git add .
+  134  git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+  135  git status
+  136  git push origin
+  137  git pull origin main
+  138  history > meusComandosAzure.txt
+ricardobatista@linux:~/teste3/LI2025-Teste03$
+
+ricardobatista@linux:~/teste3/LI2025-Teste03$ git add . && git commit -m "history azure" && git push origin main
+[main 7a53f8c] history azure
+ Committer: Ubuntu <ricardobatista@linux.bo4gvdibpqwurmlhybpb5qmywb.parx.internal.cloudapp.net>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 138 insertions(+)
+ create mode 100644 meusComandosAzure.txt
+Username for 'https://github.com': ricardobatista90
+Password for 'https://ricardobatista90@github.com':
+remote: Permission to ricardobatista1990/LI2025-Teste03.git denied to ricardobatista1990.
+fatal: unable to access 'https://github.com/ricardobatista1990/LI2025-Teste03.git/': The requested URL returned error: 403
+ricardobatista@linux:~/teste3/LI2025-Teste03$
+
+
+-------------------------------------------------
+
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03"git pull origin main
+Set-Location : A positional parameter cannot be found that accepts argument 'git'.
+At line:1 char:1
++ cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI202 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> history > meusComandosLOCAIS.txt
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03> cat meusComandosLOCAIS.txt
+
+  Id CommandLine
+  -- -----------
+   1 cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3"
+   2 pwd
+   3 git init
+   4 git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+   5 git branch
+   6 git status
+   7 git add .
+   8 git add --all
+   9 git commit -m "2ª tarefa concluída"
+  10 git status
+  11 git push origin main
+  12 git push origin
+  13 git push origin main
+  14 git status
+  15 git branch
+  16 git add --all
+  17 git commit -m "2ª tarefa concluída"
+  18 git push origin
+  19 git push origin main
+  20 git status
+  21 cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03"
+  22 git branch
+  23 git add --all
+  24 git commit -m "2ª tarefa concluída"
+  25 git status
+  26 git push origin main
+  27 c
+  28 clear
+  29 cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\4 tarefa"
+  30 clear
+  31 cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3"
+  32 git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+  33 git init
+  34 git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+  35 cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa"
+  36 git init
+  37 git clone https://github.com/ricardobatista1990/LI2025-Teste03.git
+  38 cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03"
+  39 git add --all
+  40 git commit -m "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03"
+  41 git status
+  42 git push origin main
+  43 git commit -m "3ª tarefa concluída"
+  44 git status
+  45 git push origin main
+  46 git status
+  47 git commit -m "3ª tarefa concluída"
+  48 git status
+  49 git push origin main
+  50 git add --all
+  51 git commit -m "3ª tarefa concluída"
+  52 git status
+  53 git push origin main
+  54 git add --all
+  55 git commit -m "3ª tarefa concluída"
+  56 git status
+  57 git push origin main
+  58 clear
+  59 git add --all
+  60 git commit -m "4ª tarefa"
+  61 git status
+  62 git push origin main
+  63 cd "C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03"git pull origin main
+
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Teste 3\LI2025-Teste03\3 tarefa\LI2025-Teste03>
+
+
+-----
